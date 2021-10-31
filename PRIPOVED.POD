@@ -1,0 +1,65 @@
+Število:16
+
+Naslov:NA KOLESU
+Slika:Ozadje1.Bmp
+Datoteka:prip01
+
+Naslov:RAZRED
+Slika:Ozadje2.Bmp
+Datoteka:prip02
+
+Naslov:ROJSTNI DAN
+Slika:Ozadje3.Bmp
+Datoteka:prip03
+
+Naslov:MOJA SOBA
+Slika:Ozadje4.Bmp
+Datoteka:prip04
+
+Naslov:ŽIVALI
+Slika:Ozadje5.Bmp
+Datoteka:prip05
+
+Naslov:ORKESTER
+Slika:Ozadje6.Bmp
+Datoteka:prip06
+
+Naslov:ŠOLARKA
+Slika:Ozadje7.Bmp
+Datoteka:prip07
+
+Naslov:ZIMA
+Slika:Ozadje8.Bmp
+Datoteka:prip08
+
+Naslov:PETRA POMETA SOBO
+Slika:Ozadje9.bmp
+Datoteka:prip09
+
+Naslov:HIŠA
+Slika:Ozadje10.bmp
+Datoteka:prip10
+
+Naslov:META PIŠE
+Slika:Ozadje11.bmp
+Datoteka:prip11
+
+Naslov:KNJIGA
+Slika:Ozadje12.bmp
+Datoteka:prip12
+
+Naslov:TELEVIZOR
+Slika:Ozadje13.bmp
+Datoteka:prip13
+
+Naslov:NA POÈITNICAH
+Slika:Ozadje14.bmp
+Datoteka:prip14
+
+Naslov:MIHA
+Slika:Ozadje15.bmp
+Datoteka:prip15
+
+Naslov:PRI NAS DOMA
+Slika:Ozadje16.bmp
+Datoteka:prip16

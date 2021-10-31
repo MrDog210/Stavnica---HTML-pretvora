@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/master.css">
+    <title>Stavnica</title>
+    <link rel="icon" href="STAVNICA.ICO">
+    <script type="text/javascript" src="JAVASCRIPT/stavnica.js">
+    </script>
+
+    <style media="screen">
+      * {
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+        border-collapse: collapse;
+      }
+      tr {
+        position: relative;
+      }
+      td img{
+        max-width: 65px;
+        max-height: 55px;
+        padding: 5px;
+        cursor: pointer;
+      }
+      td{
+        border: solid 1px;
+        text-align: center;
+      }
+      #stran img {
+        min-width: none;
+        max-width: 245px;
+        max-height: 270px;
+        min-height: none;
+        cursor: default;
+      }
+      #stran {
+        width:250px;
+      }
+      #pomoc {
+        cursor: pointer;
+        max-width: none;
+        max-height: none;
+        max-width: 150px;
+      }
+      button img {
+        max-width: none;
+        max-height: none;
+      }
+      .konec {
+        background-color: #cccc99;
+      }
+    </style>
+  </head>
+  <body> 
+    <center></center>
+    <div class="vsredina">
+      <table>
+        <tr>
+          <td><img onclick="menjaj(this)" src="CRKE/KEY3_A.BMP" alt="Avto"></td>
+          <td><img onclick="menjaj(this)" src="CRKE/KEY3_B.BMP" alt="Boben"></td>
+          <td><img onclick="menjaj(this)" src="CRKE/KEY3_C.BMP" alt="Copat"></td>
+          <td><img onclick="menjaj(this)" src="CRKE/KEY3_Č.BMP" alt="Čopič"></td>
+          <td><img onclick="menjaj(this)" src="CRKE/KEY3_D.BMP" alt="Dinozaver"></td>
+          <td rowspan="4" id="stran"><img src="POMOC/UVOD_STAVNICA.png" alt="izbrana" id="velika-slika"></td>
+        </tr>
+        <tr>
+          <td><img onclick="menjaj(this)" src="CRKE/KEY3_E.BMP" alt="Ena/Enka"></td>
+          <td><img onclick="menjaj(this)" src="CRKE/KEY3_F.BMP" alt="Fluta"></td>
+          <td><img onclick="menjaj(this)" src="CRKE/KEY3_G.BMP" alt="Goska"></td>
+          <td><img onclick="menjaj(this)" src="CRKE/KEY3_H.BMP" alt="Hiša"></td>
+          <td><img onclick="menjaj(this)" src="CRKE/KEY3_I.BMP" alt="Igrače"></td>
+        </tr>
+        <tr>
+          <td><img onclick="menjaj(this)" src="CRKE/KEY3_J.BMP" alt="Jadrnica"></td>
+          <td><img onclick="menjaj(this)" src="CRKE/KEY3_K.BMP" alt="Kitara"></td>
+          <td><img onclick="menjaj(this)" src="CRKE/KEY3_L.BMP" alt="Lonec"></td>
+          <td><img onclick="menjaj(this)" src="CRKE/KEY3_M.BMP" alt="Maček"></td>
+          <td><img onclick="menjaj(this)" src="CRKE/KEY3_N.BMP" alt="Nogavice"></td>
+        </tr>
+        <tr>
+          <td><img onclick="menjaj(this)" src="CRKE/KEY3_O.BMP" alt="Opica"></td>
+          <td><img onclick="menjaj(this)" src="CRKE/KEY3_P.BMP" alt="Papiga"></td>
+          <td><img onclick="menjaj(this)" src="CRKE/KEY3_R.BMP" alt="Riba"></td>
+          <td><img onclick="menjaj(this)" src="CRKE/KEY3_S.BMP" alt="Semafor"></td>
+          <td><img onclick="menjaj(this)" src="CRKE/KEY3_Š.BMP" alt="Šotor"></td>
+        </tr>
+        <tr>
+          <td><img onclick="menjaj(this)" src="CRKE/KEY3_T.BMP" alt="Torta"></td>
+          <td><img onclick="menjaj(this)" src="CRKE/KEY3_U.BMP" alt="Ura"></td>
+          <td><img onclick="menjaj(this)" src="CRKE/KEY3_V.BMP" alt="Vaza"></td>
+          <td><img onclick="menjaj(this)" src="CRKE/KEY3_Z.BMP" alt="Zmaj"></td>
+          <td><img onclick="menjaj(this)" src="CRKE/KEY3_Ž.BMP" alt="Žoga"></td>
+          <td><center><h1 id="crka"></h1></center></td>
+        </tr>
+        <tr>
+          <td colspan="4" style="border-right: none;"><a href="meni.html"><button class="konec"><img src="SYSTEM/KONEC73.BMP" alt=""></button></a></td>
+          <td colspan="2" style="border-left: none;"><img src="POMOC/mogus.png" onclick="navodila()" id="pomoc"></td>
+        </tr>
+      </table>
+    </div>
+    <audio controls hidden id="zvok">
+    </audio>
+    <script>
+      window.alert("POIMENUJVA NARISANE STVARI. DOBRO PRISLUHNI, S KATERIM GLASOM SE ZAČENJAJO.");
+      function navodila(){
+        zvok=document.getElementById('zvok');
+        zvok.pause();
+        zvok.src='GOVOR/BESEDEI.WAV';
+        zvok.currentTime=0;
+        zvok.play();
+      }
+    </script>
+  </body>
+</html>

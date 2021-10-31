@@ -1,0 +1,31 @@
+Load
+ "mk028a.bmp" as #1
+ "mk028b.bmp" as #2
+ "mk028c.bmp" as #3
+ "bremsen2.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Picture #1 /p=150
+  Picture #2 /p=150
+  Picture #1 /p=150
+  Picture #3 /p=150
+  Picture #1 /p=150
+  Sound #1
+  Picture #1 /p=150
+  Picture #2 /p=150
+  Picture #1 /p=150
+  Picture #3 /p=150
+  Picture #1 /p=150
+  Picture #2 /p=150
+  Picture #1 /p=150
+  Picture #3 /p=150
+  Picture #1 /p=150
+  Picture #2 /p=150
+  Picture #1 /p=150
+  Picture #3 /p=150
+  Picture #1 /p=150
+  Picture #2 /p=150
+  Picture #1 /p=150
+  Picture #3 /p=550
+EndAnimate

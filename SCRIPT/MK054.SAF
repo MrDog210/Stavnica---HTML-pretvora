@@ -1,0 +1,9 @@
+Load
+ "mk054a.bmp" as #1
+  "Delfin.wav" as #1
+EndLoad
+
+Animate /repeat=fales
+  Sound #1
+  Picture #1 /p=400
+EndAnimate

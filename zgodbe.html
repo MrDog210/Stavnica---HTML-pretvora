@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zgodbe</title>
+    <link rel="icon" href="STAVNICA.ICO">
+    <link rel="stylesheet" href="style/zgodbe.css">
+    <link rel="stylesheet" href="style/master.css">
+    <script src="JAVASCRIPT/jquery-3.6.0.min.js"></script>
+    <script src="JAVASCRIPT/jquery-ui.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+  </head>
+  </head>
+  <body onload="nastaviPrave()">
+    <div class="grid-container" style="background-color: white; width: 1100px; height: 660px">
+      <div class="Izbira">
+        <img class="premik IZB" src="PRIPOVED/KUZA.BMP" alt="PRVA_IZVIRA" id="PRVA_IZVIRA">
+        <img class="premik IZB" src="PRIPOVED/PETELIN.BMP" alt="DRUGA_IZVIRA" id="DRUGA_IZVIRA">
+        <img class="premik IZB" src="PRIPOVED/KRAVA.BMP" alt="TRETJA_IZVIRA" id="TRETJA_IZVIRA">
+        <img class="premik IZB" src="PRIPOVED/MUCA.BMP" alt="ČETRTA_IZVIRA" id="ČETRTA_IZVIRA">
+      </div>
+      <div class="Slika">
+        <img class="VSlika" id="VELIKA" src="PRIPOVED/OZADJE5.BMP" alt="VELIKA">
+      </div>
+      <div class="Besede">
+        <div id="TEKST">
+          <span class="TEKST">Text1 .</span>
+            <div class="spustljivo"></div><br>
+          <span class="TEKST">Text2 .</span>
+            <div class="spustljivo"></div><br>
+          <span class="TEKST">Text3 .</span>
+            <div class="spustljivo"></div><br>   <!--spustljivo ui-droppable-->
+          <span class="TEKST">Text4 .</span>
+            <div class="spustljivo" id="cetrta_skatla"></div>
+        </div>
+      </div>
+      <div class="Meni">
+        <img src="SYSTEM/URA.GIF" class="URA" alt="URA"><br>
+        <img src="SYSTEM/PRAV.BMP" alt="PRAVILNO">
+        <span id="Pravilne">0</span>
+        <br>
+        <img src="SYSTEM/NAROBE.BMP" alt="NAROBE">
+        <span id="Napacne">0</span>
+        <br>
+        <a href="meni.html"><button id="konec"><img src="SYSTEM/KONEC73.BMP" alt="" ></button></a> <br>
+        <button id="naprej" onclick="nastaviPrave()"><img src="SYSTEM/NAPREJ.BMP"  alt="Naprej" ></button>
+      </div>
+    </div>
+    <audio controls hidden id="zvok">
+    </audio>
+    <script src="JAVASCRIPT/zgodbe.js"></script>
+  </body>
+</html>

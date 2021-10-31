@@ -1,0 +1,3 @@
+1. Compilaj kodo
+2. Podaj ime .pod-a (more biti v enaki mapi)
+3. Magik

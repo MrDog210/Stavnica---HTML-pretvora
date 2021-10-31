@@ -1,0 +1,15 @@
+Load
+ "mk152a.bmp" as #1
+ "mk152b.bmp" as #2
+ "mk152c.bmp" as #3
+ "mk152d.bmp" as #4
+ "mk152e.bmp" as #5
+EndLoad
+
+Animate /repeat=false
+  Picture #1 /p=220
+  Picture #2 /p=220
+  Picture #3 /p=220
+  Picture #4 /p=220
+  Picture #5 /p=220
+EndAnimate

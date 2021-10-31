@@ -1,0 +1,33 @@
+Load
+ "mk139a.bmp" as #1
+ "mk139b.bmp" as #2
+ "mk139c.bmp" as #3
+ "mk139d.bmp" as #4
+ "mk139e.bmp" as #5
+ "mk139f.bmp" as #6
+  "open.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Picture #1 /p=300
+  Picture #2 /p=80
+  Picture #3 /p=80
+  Picture #4 /p=80
+  Picture #5 /p=80
+  Picture #6 /p=80
+  Picture #5 /p=80
+  Picture #4 /p=80
+  Picture #3 /p=80
+  Picture #2 /p=80
+  Picture #1 /p=300
+  Picture #2 /p=80
+  Picture #3 /p=80
+  Picture #4 /p=80
+  Picture #5 /p=80
+  Picture #6 /p=80
+  Picture #5 /p=80
+  Picture #4 /p=80
+  Picture #3 /p=80
+  Picture #2 /p=80
+  Picture #2 /p=880
+ EndAnimate

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/master.css">
+    <link rel="stylesheet" href="style/besede-meniSlik.css">
+    <link rel="stylesheet" href="style/besede-listSlik.css">
+    <link rel="stylesheet" href="style/besede-listCrk.css">
+    <link rel="stylesheet" href="style/besede.css">
+    <title>Besede</title>
+    <link rel="icon" href="STAVNICA.ICO">
+    <script src="JAVASCRIPT/jquery-3.6.0.min.js"></script>
+    <script src="JAVASCRIPT/jquery-ui.min.js"></script>
+  </head>
+  <body>
+    <div class="vsredina">
+      <section id="main">
+        <div class="grid-container">
+          <div class="crka-a">
+            <img class="premik" src="CRKE/KEY_A.BMP" alt="A">
+          </div>
+          <div class="crka-b">
+            <img class="premik" src="CRKE/KEY_B.BMP" alt="B">
+          </div>
+          <div class="crka-c">
+            <img class="premik" src="CRKE/KEY_C.BMP" alt="C">
+          </div>
+          <div class="crka-č">
+            <img class="premik" src="CRKE/KEY_Č.BMP" alt="Č">
+          </div>
+          <div class="crka-d">
+            <img class="premik" src="CRKE/KEY_D.BMP" alt="D">
+          </div>
+          <div class="crka-e">
+            <img class="premik" src="CRKE/KEY_E.BMP" alt="E">
+          </div>
+          <div class="crka-f">
+            <img class="premik" src="CRKE/KEY_F.BMP" alt="F">
+          </div>
+          <div class="crka-g">
+            <img class="premik" src="CRKE/KEY_G.BMP" alt="G">
+          </div>
+          <div class="crka-h">
+            <img class="premik" src="CRKE/KEY_H.BMP" alt="H">
+          </div>
+          <div class="crka-i">
+            <img class="premik" src="CRKE/KEY_I.BMP" alt="I">
+          </div>
+          <div class="crka-j">
+            <img class="premik" src="CRKE/KEY_J.BMP" alt="J">
+          </div>
+          <div class="crka-k">
+            <img class="premik" src="CRKE/KEY_K.BMP" alt="K">
+          </div>
+          <div class="crka-l">
+            <img class="premik" src="CRKE/KEY_L.BMP" alt="L">
+          </div>
+          <div class="crka-m">
+            <img class="premik" src="CRKE/KEY_M.BMP" alt="M">
+          </div>
+          <div class="crka-n">
+            <img class="premik" src="CRKE/KEY_N.BMP" alt="N">
+          </div>
+          <div class="crka-o">
+            <img class="premik" src="CRKE/KEY_O.BMP" alt="O">
+          </div>
+          <div class="crka-p">
+            <img class="premik" src="CRKE/KEY_P.BMP" alt="P">
+          </div>
+          <div class="crka-r">
+            <img class="premik" src="CRKE/KEY_R.BMP" alt="R">
+          </div>
+          <div class="crka-s">
+            <img class="premik" src="CRKE/KEY_S.BMP" alt="S">
+          </div>
+          <div class="crka-š">
+            <img class="premik" src="CRKE/KEY_Š.BMP" alt="Š">
+          </div>
+          <div class="crka-t">
+            <img class="premik" src="CRKE/KEY_T.BMP" alt="T">
+          </div>
+          <div class="crka-u">
+            <img class="premik" src="CRKE/KEY_U.BMP" alt="U">
+          </div>
+          <div class="crka-v">
+            <img class="premik" src="CRKE/KEY_V.BMP" alt="V">
+          </div>
+          <div class="crka-z">
+            <img class="premik" src="CRKE/KEY_Z.BMP" alt="Z">
+          </div>
+          <div class="crka-ž">
+            <img class="premik" src="CRKE/KEY_Ž.BMP" alt="Ž"></div>
+          <div class="ura">
+            <img src="SYSTEM/URA.GIF" alt="AAAAAAAAAAAA">
+          </div>
+          <div class="pr-na">
+            <div class="pravilno">
+              <img src="SYSTEM/PRAV.BMP" alt="PRAVILNO">
+              <span id="pravilno">0</span>
+            </div>
+            <div class="narobe">
+              <img src="SYSTEM/NAROBE.BMP" alt="NAROBE">
+              <span id="narobe">0</span>
+            </div>
+          </div>
+          <div class="konec">
+            <a href="meni.html"><button><img src="SYSTEM/KONEC73.BMP" alt=""></button></a>
+          </div>
+          <div class="izbira">
+            <button onclick="odpriListSlik()"><img src="SYSTEM/IZBIRA1.BMP" alt=""></button>
+            <button onclick="vklopiListCrk()"><img src="SYSTEM/IZBIRA2.BMP" alt=""></button>
+            <button onclick="odpriMeniSlik()"><img src="SYSTEM/IZBIRA3.BMP" alt=""></button>
+          </div>
+          <div class="rešitve" id="rešitve">
+            <div class="spustljivo"></div>
+          </div>
+          <div class="slikaMain">
+            <img src="SLIKE/005A.BMP" alt="" onclick="reciSliko()" style="cursor: pointer;" id="mainSlika">
+          </div>
+          <div class="naprej">
+            <button onclick="naslednjo()"><img class="premik" src="SYSTEM/NAPREJ.BMP" alt=""></button>
+          </div>
+          <div class="sme">
+           <!-- <img src="SYSTEM/SMETI.PNG" class="spustljivo smeti" style="border: none;" alt=""> -->
+          </div>
+          <div class="pomoc">
+            <img src="POMOC/mogus.png" onclick="navodila()" id="pomoc">
+          </div>
+        </div>
+      </section>
+      <section id="meniSlik">
+        <div class="grid-container">
+          <div onclick="izberiSliko(this)" class="slika-0"></div>
+          <div onclick="izberiSliko(this)" class="slika-1"></div>
+          <div onclick="izberiSliko(this)" class="slika-2"></div>
+          <div onclick="izberiSliko(this)" class="slika-3"></div>
+          <div onclick="izberiSliko(this)" class="slika-4"></div>
+          <div onclick="izberiSliko(this)" class="slika-5"></div>
+          <div onclick="izberiSliko(this)" class="slika-6"></div>
+          <div onclick="izberiSliko(this)" class="slika-7"></div>
+          <div onclick="izberiSliko(this)" class="slika-8"></div>
+          <div onclick="izberiSliko(this)" class="slika-9"></div>
+          <div onclick="izberiSliko(this)" class="slika-10"></div>
+          <div onclick="izberiSliko(this)" class="slika-11"></div>
+          <div onclick="izberiSliko(this)" class="slika-12"></div>
+          <div onclick="izberiSliko(this)" class="slika-13"></div>
+          <div onclick="izberiSliko(this)" class="slika-14"></div>
+          <div onclick="izberiSliko(this)" class="slika-15"></div>
+          <div onclick="izberiSliko(this)" class="slika-16"></div>
+          <div onclick="izberiSliko(this)" class="slika-17"></div>
+          <div onclick="izberiSliko(this)" class="slika-18"></div>
+          <div onclick="izberiSliko(this)" class="slika-19"></div>
+          <div onclick="izberiSliko(this)" class="slika-20"></div>
+          <div onclick="izberiSliko(this)" class="slika-21"></div>
+          <div onclick="izberiSliko(this)" class="slika-22"></div>
+          <div onclick="izberiSliko(this)" class="slika-23"></div>
+          <div onclick="izberiSliko(this)" class="slika-24"></div>
+          <div onclick="izberiSliko(this)" class="slika-25"></div>
+          <div onclick="izberiSliko(this)" class="slika-26"></div>
+          <div onclick="izberiSliko(this)" class="slika-27"></div>
+          <div class="nazaj">
+            <button onclick="meniNazaj()"><img src="SYSTEM/ZADSTRAN.BMP" alt=""></button>      
+          </div>
+          <div class="naprej">
+            <button onclick="meniNaprej()"><img src="SYSTEM/NASSTRAN.BMP" alt=""></button>
+          </div>
+          <div class="besSlika">
+            <h1>IZBERI SLIKO.</h1>
+          </div>
+          <div class="potrdi">
+            <button onclick="zapriMeniSlik()"><img src="SYSTEM/POTRDI.BMP" alt=""></button>
+          </div>
+      </section>
+      <section id="listSlik">
+        <div class="grid-container">
+          <div class="slika">
+            <img src="SLIKE/005A.BMP" alt="" id="listMainSlika">
+          </div>
+          <div class="potrdi">
+            <button onclick="zapriListSlik()"><img src="SYSTEM/POTRDI.BMP" alt=""></button>
+          </div>
+          <div class="seznam">
+            <div id="listContainer">
+              <ul id="list">
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="listCrk">
+        <div class="container">
+          <div class="potrdi">
+            <button onclick="zapriListCrk()"><img src="SYSTEM/POTRDI.BMP" alt=""></button>
+          </div>
+          <div class="slika">
+            <div id="listCrkContainer"></div>
+          </div>
+        </div>
+      </section>
+      </div>
+    </div>
+    <script src="JAVASCRIPT/besede_class.js"></script>
+    <script src="JAVASCRIPT/besede.js"></script>
+  </body>
+  <audio controls hidden id="zvok">
+  </audio>
+</html>

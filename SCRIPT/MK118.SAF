@@ -1,0 +1,33 @@
+Load
+ "mk118a.bmp" as #1
+ "mk118b.bmp" as #2
+ "mk118c.bmp" as #3
+ "mk118e.bmp" as #4
+  "118.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Sound #1 
+  Picture #4 /p=400
+  Picture #1 /p=200
+  Picture #2 /p=200
+  Picture #3 /p=300
+  Picture #2 /p=100
+  Picture #1 /p=100
+  Picture #2 /p=200
+  Picture #3 /p=300
+  Picture #2 /p=100
+  Picture #1 /p=100
+  Picture #2 /p=200
+  Picture #3 /p=300
+  Picture #2 /p=100
+  Picture #1 /p=010
+  Picture #2 /p=200
+  Picture #3 /p=300
+  Picture #2 /p=100
+  Picture #3 /p=110
+  Picture #2 /p=200
+  Picture #3 /p=300
+  Picture #2 /p=100
+  Picture #3 /p=610
+EndAnimate

@@ -1,0 +1,65 @@
+Load
+ "mk194a.bmp" as #1
+ "mk194b.bmp" as #2
+  "bee.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Sound #1
+  Picture #1 /p=70
+  Picture #2 /p=70
+  Picture #1 /p=70
+  Picture #2 /p=70
+  Picture #1 /p=70
+  Picture #2 /p=70
+  Picture #1 /p=70
+  Picture #2 /p=70
+  Picture #1 /p=70
+  Picture #2 /p=70
+  Picture #1 /p=70
+  Picture #2 /p=70
+  Picture #1 /p=70
+  Picture #2 /p=70
+  Picture #1 /p=70
+  Picture #2 /p=70
+  Picture #1 /p=70
+  Picture #2 /p=70
+  Picture #1 /p=70
+  Picture #2 /p=70
+  Picture #1 /p=70
+  Picture #2 /p=70
+  Picture #1 /p=70
+  Picture #2 /p=70
+  Picture #1 /p=70
+  Picture #2 /p=70
+  Picture #1 /p=70
+  Picture #2 /p=70
+  Picture #1 /p=70
+  Picture #2 /p=70
+  Picture #1 /p=70
+  Picture #2 /p=70
+  Picture #1 /p=70
+  Picture #2 /p=70
+  Picture #1 /p=70
+  Picture #2 /p=70
+  Picture #1 /p=70
+  Picture #2 /p=70
+  Picture #1 /p=70
+  Picture #2 /p=70
+  Picture #1 /p=70
+  Picture #2 /p=70
+  Picture #1 /p=70
+  Picture #2 /p=70
+  Picture #1 /p=70
+  Picture #2 /p=70
+  Picture #1 /p=70
+  Picture #2 /p=70
+  Picture #1 /p=70
+  Picture #2 /p=70
+  Picture #1 /p=70
+  Picture #2 /p=70
+  Picture #1 /p=70
+  Picture #2 /p=70
+  Picture #1 /p=70
+  Picture #2 /p=70
+EndAnimate

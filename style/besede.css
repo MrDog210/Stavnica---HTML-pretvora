@@ -1,0 +1,210 @@
+/* https://grid.layoutit.com/?id=k8XXcsC */
+section#main .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "crka-a crka-b crka-c crka-č crka-d crka-e crka-f crka-g crka-h crka-i"
+    "pr-na ura slikaMain slikaMain slikaMain slikaMain slikaMain slikaMain naprej crka-j"
+    "konec pomoc slikaMain slikaMain slikaMain slikaMain slikaMain slikaMain sme crka-k"
+    "izbira rešitve rešitve rešitve rešitve rešitve rešitve rešitve rešitve crka-l"
+    "crka-ž rešitve rešitve rešitve rešitve rešitve rešitve rešitve rešitve crka-m"
+    "crka-z crka-v crka-u crka-t crka-š crka-s crka-r crka-p crka-o crka-n";
+}
+
+.crka-a { grid-area: crka-a; }
+
+.crka-b { grid-area: crka-b; }
+
+.crka-c { grid-area: crka-c; }
+
+.crka-č { grid-area: crka-č; }
+
+.crka-d { grid-area: crka-d; }
+
+.crka-e { grid-area: crka-e; }
+
+.crka-f { grid-area: crka-f; }
+
+.crka-g { grid-area: crka-g; }
+
+.crka-h { grid-area: crka-h; }
+
+.crka-i { grid-area: crka-i; }
+
+.crka-j { grid-area: crka-j; }
+
+.crka-k { grid-area: crka-k; }
+
+.crka-l { grid-area: crka-l; }
+
+.crka-m { grid-area: crka-m; }
+
+.crka-n { grid-area: crka-n; }
+
+.crka-o { grid-area: crka-o; }
+
+.crka-p { grid-area: crka-p; }
+
+.crka-r { grid-area: crka-r; }
+
+.crka-s { grid-area: crka-s; }
+
+.crka-š { grid-area: crka-š; }
+
+.crka-t { grid-area: crka-t; }
+
+.crka-u { grid-area: crka-u; }
+
+.crka-v { grid-area: crka-v; }
+
+.crka-z { grid-area: crka-z; }
+
+.crka-ž { grid-area: crka-ž; }
+
+.konec { grid-area: konec; }
+
+.izbira { grid-area: izbira; }
+
+.rešitve { grid-area: rešitve; }
+
+.slikaMain { grid-area: slikaMain; }
+
+.naprej { grid-area: naprej; }
+
+.ura { grid-area: ura; }
+
+.pomoc { grid-area: pomoc; }
+
+.pr-na {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "pravilno pravilno pravilno"
+    "narobe narobe narobe";
+  grid-area: pr-na;
+}
+
+.pravilno { grid-area: pravilno; }
+
+.narobe { grid-area: narobe; }
+
+.sme { grid-area: sme; }
+
+* {
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vsredina {
+  background-color: white;
+  width: 1200px;
+}
+
+.spustljivo, .neSpustljivo {
+  float: left;
+  width: 80px;
+  height: 96px;
+  border: 1px solid black;
+  margin: 10px;
+}
+.neSpustljivo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.smeti {
+  max-width:95%;
+  max-height:95%;
+  height: auto;
+  width: auto;
+  margin: 0px;
+}
+.sme {
+  width: 100px;
+  height: 140px;
+}
+.ura img {
+  width:60px;
+}
+#meniSlik {
+  display: none;
+}
+.slikaMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slikaMain img {
+  max-height: 200px;
+  max-width: 400px;
+}
+.konec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.izbira {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pravilno, .narobe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.rešitve {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+.konec button img{
+  max-width: 90px;
+}
+.izbira button{
+  background-color: rgba(0,0,85,255);
+  border: 1px solid white;
+  padding: 3px;
+}
+.naprej, .ura, .sme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.konec button {
+  background-color: rgb(205,204,156);
+}
+div[class^='crka-'] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*cursor: pointer;*/
+}
+/*div[class^='crka-'] img{
+  cursor: grab;
+}*/
+#main .naprej button {
+  background-color: #ffcc00;
+}
+.pomoc img {
+  width: 100px;
+  cursor: pointer;
+}
+.pomoc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

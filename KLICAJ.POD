@@ -1,0 +1,7 @@
+Število:2
+
+Slika:klicaj1.bmp
+Balon:balon1.bmp
+
+Slika:klicaj2.bmp
+Balon:balon1.bmp

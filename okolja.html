@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/master.css">
+    <link rel="stylesheet" href="style/okolja.css">
+    <title>Okolje</title>
+    <link rel="icon" href="STAVNICA.ICO">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="JAVASCRIPT/jquery-3.6.0.min.js"></script>
+    <script src="JAVASCRIPT/jquery-ui.min.js"></script>
+  </head>
+  <body>
+    <div class="vsredina">
+        <div class="container" style="z-index: 0;">
+            <div class="ura">
+              <img src="SYSTEM/URA.GIF" alt="AAAAAAAAAAAA">
+            </div>
+            <div class="pravilno">
+              <img src="SYSTEM/PRAV.BMP" alt="PRAVILNO">
+              <span id="pravilno">0</span>
+            </div>
+            <div class="narobe">
+              <img src="SYSTEM/NAROBE.BMP" alt="NAROBE">
+              <span id="narobe">0</span>
+            </div>
+            <div class="naslednjo">
+              <button onclick="naslednjo()"><img src="SYSTEM/NAPREJ.BMP" alt=""></button>
+            </div>
+            <div class="pomoc">
+              <img src="POMOC/mogus.png" onclick="navodila()" id="pomoc">
+            </div>
+            <div class="izhod">
+              <a href="meni.html"><button><img src="SYSTEM/KONEC73.BMP" alt=""></button></a>
+            </div>
+            <div class="izbira" id="izbira"></div>
+            <div class="okolje">
+              <div class="okolje-naslov">NASLOV</div>
+              <div class="okolje-spusti" style="filter: blur(0px);">
+                <div class="spustljivo"></div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <script src="JAVASCRIPT/okolja.js"></script>
+  </body>
+  <audio controls hidden id="zvok">
+  </audio>
+  
+</html>

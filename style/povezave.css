@@ -1,0 +1,94 @@
+/* https://grid.layoutit.com/?id=9OnNH8A */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+  "ura . slika1 ."
+  "pr-na slika8 prazno slika2"
+  "izbriši slika7 prazno slika3"
+  "naprej slika6 prazno slika4"
+  "konec . slika5 .";
+}
+.ura { grid-area: ura; }
+.pr-na {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "pravilno pravilno pravilno"
+    "narobe narobe narobe";
+  grid-area: pr-na;
+}
+.pravilno { grid-area: pravilno; }
+.narobe { grid-area: narobe; }
+.slika1 { grid-area: slika1; }
+.slika2 { grid-area: slika2; }
+.slika3 { grid-area: slika3; }
+.slika4 { grid-area: slika4; }
+.slika5 { grid-area: slika5; }
+.slika6 { grid-area: slika6; }
+.slika7 { grid-area: slika7; }
+.slika8 { grid-area: slika8; }
+.izbriši { grid-area: izbriši; }
+.naprej { grid-area: naprej; }
+.konec { grid-area: konec; }
+.prazno { grid-area: prazno; }
+
+div[class^='slika']  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 150px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  cursor: pointer;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  user-select:none;
+}
+div[class^='slika']:hover {
+  background-color: rgba(128, 128, 128, 0.5);
+}
+div[class^='slika']:active {
+  background-color: black;
+  color: white;
+}
+.pravilno, .narobe, .ura, .izbriši, .naprej{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+}
+.izbriši button {
+  background-color: #0868fc;
+}
+.naprej button {
+  background-color: #fccc04;
+}
+.konec button {
+  background-color: #cccc99;
+}
+* {
+  /*border: 1px solid black;*/
+  font-size: 25px;
+  font-weight: bold;
+  border-collapse: collapse;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.prazno {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.vsredina {
+  background-color: white;
+  width: 1000px;
+  margin: auto;
+}
+#pomoc {
+  width: 300px;
+  cursor: pointer;
+}

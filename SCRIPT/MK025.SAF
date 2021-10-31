@@ -1,0 +1,9 @@
+Load
+ "mk025a.bmp" as #1
+  "Strasse2.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Sound #1
+  Picture #1 /p=6400
+EndAnimate

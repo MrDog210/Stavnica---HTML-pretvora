@@ -1,0 +1,33 @@
+Load
+ "mk182a.bmp" as #1
+ "mk182b.bmp" as #2
+ "mk182c.bmp" as #3
+ "mk182d.bmp" as #4
+ "mk182e.bmp" as #5
+  "skarje2.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Sound #1
+  Picture #1 /p=600
+  Picture #2 /p=100
+  Picture #3 /p=100
+  Picture #4 /p=110
+  Picture #5 /p=100
+  Picture #2 /p=100
+  Picture #3 /p=100
+  Picture #4 /p=110
+  Picture #5 /p=100
+  Picture #4 /p=100
+  Picture #3 /p=100
+  Picture #2 /p=100
+  Picture #1 /p=600
+  Picture #2 /p=100
+  Picture #3 /p=100
+  Picture #4 /p=110
+  Picture #5 /p=100
+  Picture #4 /p=100
+  Picture #3 /p=100
+  Picture #2 /p=100
+  Picture #1 /p=700
+EndAnimate

@@ -1,0 +1,30 @@
+Load
+ "mk099a.bmp" as #1
+ "mk099b.bmp" as #2
+ "mk099c.bmp" as #3
+ "mk099d.bmp" as #4
+ "mk099e.bmp" as #5
+ "mk099f.bmp" as #6
+ "mk099g.bmp" as #7
+ "mk099h.bmp" as #8
+  "099.wav" as #1
+EndLoad
+
+Animate /repeat=false 
+  Sound #1
+  Picture #1 /p=700
+  Picture #2 /p=600
+  Picture #3 /p=500
+  Picture #4 /p=400
+  Picture #5 /p=300
+  Picture #6 /p=300
+  Picture #7 /p=300
+  Picture #8 /p=300
+  Picture #7 /p=300
+  Picture #6 /p=300
+  Picture #5 /p=300
+  Picture #4 /p=400
+  Picture #3 /p=500
+  Picture #2 /p=600
+  Picture #1 /p=1000
+EndAnimate

@@ -1,0 +1,27 @@
+Load
+ "mk161a.bmp" as #1
+ "mk161c.bmp" as #2
+ "mk161d.bmp" as #3
+ "mk161e.bmp" as #4
+  "Deckel.wav" as #1
+EndLoad
+
+Animate /repeat=False
+  Picture #1 /p=700
+  Sound #1
+  Picture #2 /p=150
+  Picture #1 /p=150
+  Sound #1
+  Picture #2 /p=150
+  Picture #3 /p=70
+  Picture #4 /p=100
+  Picture #1 /p=700
+  Sound #1
+  Picture #2 /p=150
+  Picture #1 /p=150
+  Sound #1
+  Picture #2 /p=150
+  Picture #3 /p=70
+  Picture #4 /p=150
+  Picture #1 /p=750
+EndAnimate

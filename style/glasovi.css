@@ -1,0 +1,123 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+}
+
+.ura { grid-area: 1 / 2 / 3 / 3; }
+.pravilno { grid-area: 1 / 3 / 2 / 4; }
+.narobe { grid-area: 2 / 3 / 3 / 4; }
+.slika1 { grid-area: 1 / 1 / 4 / 2; }
+.slika2 { grid-area: 4 / 1 / 7 / 2; }
+.naprej { grid-area: 2 / 2 / 3 / 3; }
+.konec { grid-area: 6 / 2 / 7 / 4; }
+.crka { grid-area: 3 / 2 / 6 / 4; }
+.slika3 { grid-area: 1 / 4 / 4 / 5; }
+.slika4 { grid-area: 4 / 4 / 7 / 5; }
+img {
+    max-width: 250px;
+    max-height: 250px;
+}
+.vsredina {
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    width: 1000px;
+}
+.ura {
+
+    text-align: center;
+}
+.konec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.konec button {
+    background-color:rgb(208,204,156);
+    border: 1px solid white;
+    outline: 2px solid grey;
+}
+.konec button img {
+    float: left;
+}
+.konec button span {
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: 15px;
+}
+.naprej {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.naprej button {
+    background-color: #fccc04;
+}
+.crka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10em;
+}
+.pravilno, .narobe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pravilno, #narobe  {
+    font-size: 35px;
+}
+.slika1, .slika2, .slika3, .slika4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+* {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+@media only screen and (max-width: 600px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+          "ura pravilno"
+          "ura narobe"
+          "naprej crka"
+          "slika1 slika2"
+          "slika1 slika2"
+          "slika3 slika4"
+          "slika3 slika4"
+          "konec konec";
+      }
+      
+      .ura { grid-area: ura; }
+      
+      .pravilno { grid-area: pravilno; }
+      
+      .narobe { grid-area: narobe; }
+      
+      .slika1 { grid-area: slika1; }
+      
+      .slika2 { grid-area: slika2; }
+      
+      .slika3 { grid-area: slika3; }
+      
+      .slika4 { grid-area: slika4; }
+      
+      .naprej { grid-area: naprej; }
+      
+      .crka { grid-area: crka; }
+      
+      .konec { grid-area: konec; }
+    
+      .vsredina {
+          padding: 0px;
+          width: 100%;
+          margin: none;
+      }
+  }

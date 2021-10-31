@@ -1,0 +1,35 @@
+Load
+ "mk004a.bmp" as #1
+ "mk004d.bmp" as #2
+ "mk004b.bmp" as #3
+ "mk004c.bmp" as #4
+ "splash1.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Sound #1
+  Picture #1 /p=150
+  Picture #2 /p=150
+  Picture #3 /p=150
+  Picture #4 /p=150
+  Picture #3 /p=150
+  Picture #2 /p=150
+  Picture #1 /p=150
+  Picture #2 /p=150
+  Picture #3 /p=150
+  Picture #4 /p=150
+  Picture #3 /p=150
+  Sound #1 
+  Picture #1 /p=150
+  Picture #2 /p=150
+  Picture #3 /p=150
+  Picture #4 /p=150
+  Picture #3 /p=150
+  Picture #2 /p=150
+  Picture #1 /p=150
+  Picture #2 /p=150
+  Picture #3 /p=150
+  Picture #4 /p=150
+  Picture #3 /p=150
+  Picture #1 /p=150
+EndAnimate

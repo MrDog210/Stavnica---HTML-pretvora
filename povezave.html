@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/master.css">
+    <link rel="stylesheet" href="style/povezave.css">
+    <title>Povezave</title>
+    <link rel="icon" href="STAVNICA.ICO">
+    <style media="screen">
+      
+    </style>
+  </head>
+  <body>
+    <div class="vsredina">
+      <div class="grid-container">
+        <div class="ura">
+          <img src="SYSTEM/URA.GIF" alt="URA">
+        </div>
+        <div class="pr-na">
+          <div class="pravilno">
+            <img src="SYSTEM/PRAV.BMP" alt="PRAVILNO">
+            <span id="pravilno">0</span>
+          </div>
+          <div class="narobe">
+            <img src="SYSTEM/NAROBE.BMP" alt="NAROBE">
+            <span id="narobe">0</span>
+          </div>
+        </div>
+        <div class="slika1" onclick="preveri(this)" onmouseover="reciSlika(this)">
+          <img src="POVEZAVE/POVEZA10.BMP" alt="" id="s1">
+          <span></span>
+        </div>
+        <div class="slika2" onclick="preveri(this)" onmouseover="reciSlika(this)">
+          <span></span>
+          <img src="POVEZAVE/POVEZA10.BMP" alt="" id="s2">
+        </div>
+        <div class="slika3" onclick="preveri(this)" onmouseover="reciSlika(this)">
+          <span></span>
+          <img src="POVEZAVE/POVEZA10.BMP" alt="" id="s3">
+        </div>
+        <div class="slika4" onclick="preveri(this)" onmouseover="reciSlika(this)">
+          <span></span>
+          <img src="POVEZAVE/POVEZA10.BMP" alt="" id="s4">
+        </div>
+        <div class="slika5" onclick="preveri(this)" onmouseover="reciSlika(this)">
+          <span></span> <br>
+          <img src="POVEZAVE/POVEZA10.BMP" alt="" id="s5">
+        </div>
+        <div class="slika6" onclick="preveri(this)" onmouseover="reciSlika(this)">
+          <img src="POVEZAVE/POVEZA10.BMP" alt="" id="s6">
+          <span></span>
+        </div>
+        <div class="slika7" onclick="preveri(this)" onmouseover="reciSlika(this)">
+          <img src="POVEZAVE/POVEZA10.BMP" alt="" id="s7">
+          <span></span>
+        </div>
+        <div class="slika8" onclick="preveri(this)" onmouseover="reciSlika(this)">
+          <img src="POVEZAVE/POVEZA10.BMP" alt="" id="s8">
+          <span></span>
+        </div>
+        <div class="izbriši">
+          <button onclick="izbrisi()"><img src="SYSTEM/RESET.BMP" alt=""></button>
+        </div>
+        <div class="naprej">
+          <button onclick="naslednjo()"><img src="SYSTEM/NAPREJ.BMP" alt=""></button>
+        </div>
+        <div class="konec">
+          <a href="meni.html"><button><img src="SYSTEM/KONEC73.BMP" alt=""></button></a>
+        </div>
+        <div class="prazno"></div>
+      </div>
+    </div>
+    <center><img src="POMOC/mogus.png" onclick="predvajajZvok('GOVOR/POVEZAVI.WAV')" id="pomoc"></center>
+  </body>
+  <audio controls hidden id="zvok">
+  </audio>
+  <script src="JAVASCRIPT/povezave.js"></script>
+</html>

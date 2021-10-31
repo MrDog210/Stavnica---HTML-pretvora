@@ -1,0 +1,26 @@
+Load
+ "mk072a.bmp" as #1
+ "mk072b.bmp" as #2
+ "\mk072c.bmp" as #3
+  "ringin.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Picture #1 /p=500
+  Sound #1
+  Picture #3 /p=80
+  Picture #2 /p=80
+  Picture #3 /p=80
+  Picture #2 /p=80
+  Picture #3 /p=80
+  Picture #1 /p=180
+  Picture #1 /p=300
+  Sound #1
+  Picture #3 /p=80
+  Picture #2 /p=80
+  Picture #3 /p=80
+  Picture #2 /p=80
+  Picture #3 /p=80
+  Picture #1 /p=180
+  Picture #1 /p=880
+EndAnimate

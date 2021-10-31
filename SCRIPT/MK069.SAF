@@ -1,0 +1,28 @@
+Load
+ "mk069a.bmp" as #1
+ "mk069b.bmp" as #2
+ "mk069c.bmp" as #3
+  "Kueken.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Sound #1
+  Picture #1 /p=300
+  Picture #2 /p=250
+  Picture #3 /p=300
+  Picture #2 /p=300
+  Picture #3 /p=300
+  Picture #2 /p=250
+  Picture #1 /p=300
+  Picture #2 /p=250
+  Picture #3 /p=300
+  Picture #2 /p=300
+  Picture #3 /p=300
+  Picture #2 /p=250
+  Picture #1 /p=300
+  Picture #2 /p=350
+  Picture #3 /p=300
+  Picture #2 /p=300
+  Picture #3 /p=300
+  Picture #1 /p=750
+EndAnimate

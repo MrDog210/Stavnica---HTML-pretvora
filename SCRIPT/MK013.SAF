@@ -1,0 +1,25 @@
+Load
+ "mk013a.bmp" as #1
+ "mk013b.bmp" as #2
+ "mk013c.bmp" as #3
+  "snore.wav" as #1
+EndLoad
+
+Animate /repeat=FALSE
+  Picture #1 /p=750
+  Sound #1
+  Picture #2 /p=750
+  Picture #3 /p=350
+  Picture #2 /p=350
+  Picture #1 /p=750
+  Sound #1
+  Picture #2 /p=350
+  Picture #3 /p=350
+  Picture #2 /p=350
+  Picture #1 /p=750
+  Sound #1
+  Picture #2 /p=350
+  Picture #3 /p=350
+  Picture #2 /p=350
+  Picture #1 /p=950
+EndAnimate

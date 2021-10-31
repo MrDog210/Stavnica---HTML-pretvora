@@ -1,0 +1,18 @@
+Load
+ "mk144a.bmp" as #1
+ "mk144b.bmp" as #2
+ "Info.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Picture #1 /p=850
+  Picture #2 /p=180
+  Sound #1
+  Picture #1 /p=480
+  Picture #2 /p=180
+  Sound #1
+  Picture #1 /p=480
+  Picture #2 /p=180
+  Sound #1
+  Picture #1 /p=850
+EndAnimate

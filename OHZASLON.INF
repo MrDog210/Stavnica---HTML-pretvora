@@ -1,0 +1,52 @@
+;; Ohranjevalnik zaslona Info file
+;; OHZASLON.INF
+;; Copyright (c) i-Rose d.o.o. 1993-1996
+
+[make.path]
+%root%
+%root%\OHZASLON
+
+[copy.files.windows]
+;source            dest               desc                             size
+"STAVNICA.SCR",    "STAVNICA.SCR",    "Ohranjevalnik zaslona",         0
+
+[copy.files.system]
+
+[copy.files.root]
+;source            dest               desc                             size
+"STAVNICA.SCR",    "OHZASLON.EXE",    "Ohranjevalnik zaslona",         0
+"OHZASLON\OHZASLON.POD", "%root%\OHZASLON\OHZASLON.POD", "Ohranjevalnik zaslona", 0
+"OHZASLON\MK011a.BMP", "%root%\OHZASLON\MK011a.BMP", "Slike za ohranjevalnik zaslona", 0
+"OHZASLON\MK020a.BMP", "%root%\OHZASLON\MK020a.BMP", "Slike za ohranjevalnik zaslona", 0
+"OHZASLON\MK032a.BMP", "%root%\OHZASLON\MK032a.BMP", "Slike za ohranjevalnik zaslona", 0
+"OHZASLON\MK040a.BMP", "%root%\OHZASLON\MK040a.BMP", "Slike za ohranjevalnik zaslona", 0
+"OHZASLON\MK042a.BMP", "%root%\OHZASLON\MK042a.BMP", "Slike za ohranjevalnik zaslona", 0
+"OHZASLON\MK054a.BMP", "%root%\OHZASLON\MK054a.BMP", "Slike za ohranjevalnik zaslona", 0
+"OHZASLON\MK071a.BMP", "%root%\OHZASLON\MK071a.BMP", "Slike za ohranjevalnik zaslona", 0
+"OHZASLON\MK095a.BMP", "%root%\OHZASLON\MK095a.BMP", "Slike za ohranjevalnik zaslona", 0
+"OHZASLON\MK104a.BMP", "%root%\OHZASLON\MK104a.BMP", "Slike za ohranjevalnik zaslona", 0
+"OHZASLON\MK103a.BMP", "%root%\OHZASLON\MK103a.BMP", "Slike za ohranjevalnik zaslona", 0
+"OHZASLON\MK082a.BMP", "%root%\OHZASLON\MK082a.BMP", "Slike za ohranjevalnik zaslona", 0
+"OHZASLON\MK207a.BMP", "%root%\OHZASLON\MK207a.BMP", "Slike za ohranjevalnik zaslona", 0
+"OHZASLON\MK161a.BMP", "%root%\OHZASLON\MK161a.BMP", "Slike za ohranjevalnik zaslona", 0
+"OHZASLON\MK141a.BMP", "%root%\OHZASLON\MK141a.BMP", "Slike za ohranjevalnik zaslona", 0
+"OHZASLON\MK151a.BMP", "%root%\OHZASLON\MK151a.BMP", "Slike za ohranjevalnik zaslona", 0
+"OHZASLON\MK217a.BMP", "%root%\OHZASLON\MK217a.BMP", "Slike za ohranjevalnik zaslona", 0
+"OHZASLON\MK218a.BMP", "%root%\OHZASLON\MK218a.BMP", "Slike za ohranjevalnik zaslona", 0
+"OHZASLON\MK901a.BMP", "%root%\OHZASLON\MK901a.BMP", "Slike za ohranjevalnik zaslona", 0
+
+[inifile.Topics]
+; topics      ini file
+boot        = "SYSTEM.INI"
+
+[inifile.boot]
+SCRNSAVE.EXE=%windir%\STAVNICA.SCR
+
+[inifile.poti]
+
+[create.group.Topics]
+Stavnica
+
+[create.group.Stavnica]
+;command line                     WorkingDir           Description
+"%root%\ohzaslon.exe /s",         "%root%",            "Ohranjevalnik zaslona"

@@ -1,0 +1,52 @@
+Load
+ "mk189a.bmp" as #1
+ "mk189b.bmp" as #2
+ "mk189c.bmp" as #3
+ "mk189d.bmp" as #4
+ "mk189e.bmp" as #5
+ "mk189f.bmp" as #6
+ "mk189g.bmp" as #7
+ "mk189h.bmp" as #8
+ "snore.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Picture #1 /p=650
+  Sound #1
+  Picture #4 /p=150
+  Picture #5 /p=150
+  Picture #6 /p=150
+  Picture #7 /p=150
+  Picture #8 /p=200
+  Picture #7 /p=150
+  Picture #6 /p=150
+  Picture #5 /p=150
+  Picture #4 /p=150
+  Picture #1 /p=650
+  Sound #1
+  Picture #4 /p=150
+  Picture #5 /p=150
+  Picture #6 /p=150
+  Picture #7 /p=150
+  Picture #8 /p=200
+  Picture #7 /p=150
+  Picture #6 /p=150
+  Picture #5 /p=150
+  Picture #4 /p=150
+  Picture #2 /p=150
+  Picture #3 /p=150
+  Picture #2 /p=150
+  Picture #3 /p=150
+  Picture #2 /p=150
+  Sound #1
+  Picture #4 /p=150
+  Picture #5 /p=150
+  Picture #6 /p=150
+  Picture #7 /p=150
+  Picture #8 /p=200
+  Picture #7 /p=150
+  Picture #6 /p=150
+  Picture #5 /p=150
+  Picture #4 /p=150
+  Picture #1 /p=750
+EndAnimate

@@ -1,0 +1,55 @@
+Load
+ "mk188a.bmp" as #1
+ "mk188b.bmp" as #2
+ "mk188c.bmp" as #3
+ "wind.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Sound #1
+  Picture #1 /p=200
+  Picture #2 /p=200
+  Picture #1 /p=200
+  Picture #3 /p=200
+  Picture #1 /p=200
+  Picture #2 /p=200
+  Picture #1 /p=200
+  Picture #3  /p=200
+  Picture #1 /p=200
+  Picture #2 /p=200
+  Picture #1 /p=200
+  Picture #3 /p=200
+  Picture #1 /p=200
+  Picture #2 /p=200
+  Picture #1 /p=200
+  Picture #3  /p=200
+  Picture #1 /p=200
+  Picture #2 /p=200
+  Picture #1 /p=200
+  Picture #3 /p=200
+  Picture #1 /p=200
+  Picture #2 /p=200
+  Picture #1 /p=200
+  Picture #3  /p=200
+  Picture #1 /p=200
+  Picture #2 /p=200
+  Picture #1 /p=200
+  Picture #3 /p=200
+  Picture #1 /p=200
+  Picture #2 /p=200
+  Picture #1 /p=200
+  Picture #3  /p=200
+  Picture #1 /p=200
+  Picture #2 /p=200
+  Picture #1 /p=200
+  Picture #3 /p=200
+  Picture #1 /p=200
+  Picture #2 /p=200
+  Picture #1 /p=200
+  Picture #3  /p=200
+  Picture #1 /p=200
+  Picture #2 /p=200
+  Picture #1 /p=300
+  Picture #3  /p=300
+  Picture #1 /p=1000
+EndAnimate

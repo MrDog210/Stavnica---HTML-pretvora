@@ -1,0 +1,9 @@
+Load
+ "mk210a.bmp" as #1
+  "Mroz.wav" as #1
+EndLoad
+
+Animate /repeat=fales
+  Sound #1
+  Picture #1 /p=400
+EndAnimate

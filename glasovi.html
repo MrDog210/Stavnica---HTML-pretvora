@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/master.css">
+    <link rel="stylesheet" href="style/glasovi.css">
+    <title>Glasovi</title>
+    <link rel="icon" href="STAVNICA.ICO">
+    <style media="screen">
+
+    </style>
+    
+  </head>
+  <body>
+    <div class="vsredina">
+        <div class="grid-container">
+            <div class="ura">
+                <img src="SYSTEM/URA.BMP" alt="URA">
+            </div>
+            <div class="pravilno">
+                <img src="SYSTEM/PRAV.BMP" alt="URA">
+                <span id="pravilno">0</span>
+            </div>
+            <div class="narobe">
+                <img src="SYSTEM/NAROBE.BMP" alt="URA">
+                <span id="narobe">0</span>
+            </div>
+            <div class="slika1">
+                <img onclick="preveri(this)" src="GLASOVI/A0.BMP" alt="" id="s1">
+            </div>
+            <div class="slika2">
+                <img onclick="preveri(this)" src="GLASOVI/B0.BMP" alt="" id="s2">
+            </div>
+            <div class="naprej">
+                <button onclick="naslednjo()"><img src="SYSTEM/NAPREJ.BMP" alt=""></button>
+            </div>
+            <div class="konec">
+                <a href="meni.html"><button><img src="SYSTEM/KONEC73.BMP" alt=""></button></a>
+            </div>
+            <div class="crka" id="crka">
+                A
+            </div>
+            <div class="slika3">
+                <img onclick="preveri(this)" src="GLASOVI/C0.BMP" alt="" id="s3">
+            </div>
+            <div class="slika4">
+                <img onclick="preveri(this)" src="GLASOVI/Č0.BMP" alt="" id="s4">
+            </div>
+          </div>
+    </div> <br>
+    <img src="POMOC/mogus.png" onclick="navodila()" id="pomoc" style="cursor: pointer;">
+  </body>
+  <audio controls hidden id="zvok">
+  </audio>
+  <script src="JAVASCRIPT/glasovi.js"></script>
+</html>

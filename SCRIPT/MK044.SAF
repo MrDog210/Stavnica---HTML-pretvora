@@ -1,0 +1,14 @@
+Load
+ "mk044a.bmp" as #1
+ "mk044b.bmp" as #2
+  "kittycry.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Sound #1
+  Picture #1 /p=260
+  Picture #2 /p=560
+  Picture #1 /p=760
+  Picture #2 /p=560
+  Picture #1 /p=960
+EndAnimate

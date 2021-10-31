@@ -1,0 +1,34 @@
+Load
+ "mk127a.bmp" as #1
+ "mk127b.bmp" as #2
+ "mk127c.bmp" as #3
+ "mk127d.bmp" as #4
+ "mk127e.bmp" as #5
+  "Adams.wav" as #1
+EndLoad
+
+Animate /repeat=fales
+  Sound #1
+  Picture #1 /p=370
+  Picture #2 /p=370
+  Picture #3 /p=370
+  Picture #2 /p=370
+  Picture #1 /p=400
+  Picture #2 /p=400
+  Picture #3 /p=400
+  Picture #2 /p=400
+  Picture #1 /p=400
+  Picture #1 /p=370
+  Picture #2 /p=370
+  Picture #3 /p=370
+  Picture #2 /p=370
+  Picture #3 /p=370
+  Picture #2 /p=370
+  Picture #4 /p=220
+  Picture #5 /p=320
+  Picture #4 /p=320
+  Picture #5 /p=320
+  Picture #4 /p=320
+  Picture #5 /p=320
+  Picture #1 /p=820
+EndAnimate

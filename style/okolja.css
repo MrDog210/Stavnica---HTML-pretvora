@@ -1,0 +1,141 @@
+/* https://grid.layoutit.com/?id=zhEg0hl */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "ura izbira izbira okolje okolje okolje"
+        "pravilno izbira izbira okolje okolje okolje"
+        "narobe izbira izbira okolje okolje okolje"
+        "naslednjo izbira izbira okolje okolje okolje"
+        "pomoc izbira izbira okolje okolje okolje"
+        "izhod izbira izbira okolje okolje okolje";
+}
+.ura { grid-area: ura; }
+.pravilno { grid-area: pravilno; }
+.narobe { grid-area: narobe; }
+.naslednjo { grid-area: naslednjo; }
+.pomoc { grid-area: pomoc; }
+.izhod { grid-area: izhod; }
+.izbira { grid-area: izbira; }
+.okolje {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 0.5fr 1fr 1fr 1fr;
+gap: 0px 0px;
+grid-auto-flow: row;
+grid-template-areas:
+    "okolje-naslov okolje-naslov okolje-naslov"
+    "okolje-spusti okolje-spusti okolje-spusti"
+    "okolje-spusti okolje-spusti okolje-spusti"
+    "okolje-spusti okolje-spusti okolje-spusti";
+grid-area: okolje;
+}
+.okolje-naslov { grid-area: okolje-naslov; }
+.okolje-spusti { grid-area: okolje-spusti; }
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+.vsredina {
+    background-color: white;
+    width: 1300px;
+    margin: auto;
+    border:1px solid black;
+    border-radius: 15px;
+}
+.pomoc img {
+    width: 100px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.okolje-spusti {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    overflow: hidden;
+    border-bottom-right-radius: 15px; 
+}
+.spustljivo {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0);
+    backdrop-filter:blur(0px)
+}
+.spustljivo img {
+    max-width: 252px;
+    max-height: 252px;
+}
+.ozadjeBlur {
+    backdrop-filter:blur(20px);
+    transition: 300ms;
+    transition-timing-function: ease;
+}
+.premik {
+    max-width: 170px;
+    max-height: 150px;
+    z-index: 100;
+}
+.povecaj {
+    transition:200ms;
+}
+.povecaj:hover {
+    z-index: 102;
+    transform: scale(2.2);
+    transition: 300ms;
+    transition-timing-function: ease-out;
+    cursor: grab;
+}
+
+/*
+.premik:active {
+    z-index: 102;
+    transform: scale(1);
+}*/
+.izbira {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom: none;
+}
+.okolje-spusti{
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ura, .pravilno, .narobe, .naslednjo, .pomoc, .izhod, .okolje-naslov {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+.pravilno, .narobe {
+    font-size: 30px;
+    font-weight: bolder;
+}
+.okolje-naslov {
+    font-size: 45px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+.izhod button {
+    background-color: #cccc99;
+}
+.naslednjo button {
+    background-color: #fccc04;
+}

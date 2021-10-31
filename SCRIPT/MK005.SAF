@@ -1,0 +1,35 @@
+Load
+ "mk005a.bmp" as #1
+ "mk005b.bmp" as #2
+ "mk005c.bmp" as #3
+ "mk005d.bmp" as #4
+  "open.wav" as #1
+EndLoad
+
+Animate /repeat=fakse
+  Sound #1
+  Picture #1 /p=100
+  Picture #2 /p=100
+  Picture #1 /p=100
+  Picture #3 /p=250
+  Picture #2 /p=100
+  Picture #4 /p=100
+  Picture #3 /p=100
+  Picture #1 /p=250
+  Picture #2 /p=100
+  Picture #3 /p=100
+  Picture #4 /p=100
+  Picture #1 /p=200
+  Picture #3 /p=100
+  Picture #2 /p=250
+  Picture #4 /p=100
+  Picture #1 /p=100
+  Picture #3 /p=100
+  Picture #4 /p=200
+  Picture #2 /p=100
+  Picture #1 /p=250
+  Picture #3 /p=100
+  Picture #2 /p=100
+  Picture #1 /p=100
+  Picture #3 /p=500
+EndAnimate

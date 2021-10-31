@@ -1,0 +1,45 @@
+Število:11
+
+Naslov:PRIJATELJI
+Slika:puzzle1
+Zvok:Puzzle1.Wav
+
+Naslov:BRATEC IN SESTRICA
+Slika:puzzle2
+Zvok:Puzzle2.Wav
+
+Naslov:OTROCI SE IGRAJO
+Slika:puzzle6
+Zvok:Puzzle6.Wav
+
+Naslov:MLADA ŠIVILJA
+Slika:puzzle3
+Zvok:Puzzle3.Wav
+
+Naslov:PRI NAS DOMA
+Slika:puzzle4
+Zvok:Puzzle4.Wav
+
+Naslov:NA KOLESU
+Slika:puzzle5
+Zvok:Puzzle5.Wav
+
+Naslov:ROBOT NA DELU
+Slika:puzzle7
+Zvok:Puzzle7.Wav
+
+Naslov:POGLED V VESOLJE
+Slika:puzzle8
+Zvok:Puzzle8.Wav
+
+Naslov:NA TUJEM PLANETU
+Slika:puzzle9
+Zvok:Puzzle9.Wav
+
+Naslov:HOTEL NA MARSU
+Slika:puzzl10
+Zvok:Puzzle10.Wav
+
+Naslov:POLET V VESOLJE
+Slika:puzzl11
+Zvok:Puzzle11.Wav

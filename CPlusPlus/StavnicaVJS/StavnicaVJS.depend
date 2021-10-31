@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1623152605 source:c:\users\florijan tušak\documents\sola\oop\praksa\p. 5 datoteke\stavnicavjs\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+

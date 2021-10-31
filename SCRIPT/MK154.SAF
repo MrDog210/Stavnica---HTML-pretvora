@@ -1,0 +1,36 @@
+Load
+ "mk154a.bmp" as #1
+ "mk154b.bmp" as #2
+ "mk154c.bmp" as #3
+ "mk154d.bmp" as #4
+ "mk154e.bmp" as #5
+ "mk154f.bmp" as #6
+ "mk154g.bmp" as #7
+ "mk154h.bmp" as #8
+ "mk154i.bmp" as #9
+ "053.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Picture #1 /p=100
+  Picture #2 /p=100
+  Picture #1 /p=100
+  Picture #2 /p=100
+  Picture #1 /p=100
+  Picture #2 /p=100
+  Picture #3 /p=100
+  Picture #4 /p=100
+  Picture #5 /p=100
+  Picture #6 /p=100
+  Picture #7 /p=100
+  Picture #8 /p=100
+  Picture #9 /p=100
+  Picture #8 /p=100
+  Picture #7 /p=100
+  Picture #6 /p=100
+  Picture #5 /p=100
+  Picture #4 /p=100
+  Picture #3 /p=100
+  Picture #2 /p=100
+  Picture #1 /p=800
+ EndAnimate

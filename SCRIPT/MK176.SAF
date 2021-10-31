@@ -1,0 +1,59 @@
+Load
+ "mk176a.bmp" as #1
+ "mk176b.bmp" as #2
+ "mk176c.bmp" as #3
+ "mk176d.bmp" as #4
+  "Kueken.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Sound #1
+  Picture #1 /p=100
+  Picture #2 /p=100
+  Picture #3 /p=100
+  Picture #2 /p=100
+  Picture #1 /p=100
+  Picture #4 /p=100
+  Picture #1 /p=100
+  Picture #2 /p=100
+  Picture #3 /p=100
+  Picture #2 /p=100
+  Picture #1 /p=100
+  Picture #4 /p=100
+  Picture #1 /p=100
+  Picture #2 /p=100
+  Picture #3 /p=100
+  Picture #2 /p=100
+  Picture #1 /p=100
+  Picture #4 /p=100
+  Picture #1 /p=100
+  Picture #2 /p=100
+  Picture #3 /p=100
+  Picture #2 /p=100
+  Picture #1 /p=100
+  Picture #4 /p=120
+  Picture #1 /p=120
+  Picture #2 /p=120
+  Picture #3 /p=120
+  Picture #2 /p=120
+  Picture #1 /p=120
+  Picture #4 /p=102
+  Picture #1 /p=120
+  Picture #2 /p=120
+  Picture #3 /p=120
+  Picture #2 /p=120
+  Picture #1 /p=120
+  Picture #4 /p=120
+  Picture #1 /p=120
+  Picture #2 /p=120
+  Picture #3 /p=120
+  Picture #2 /p=120
+  Picture #1 /p=120
+  Picture #4 /p=120
+  Picture #1 /p=120
+  Picture #2 /p=120
+  Picture #3 /p=120
+  Picture #2 /p=120
+  Picture #1 /p=120
+  Picture #4 /p=120
+EndAnimate

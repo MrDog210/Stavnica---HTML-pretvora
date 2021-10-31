@@ -1,0 +1,14 @@
+Load
+ "mk074a.bmp" as #1
+ "mk074b.bmp" as #2
+ "mk074c.bmp" as #3
+ "abschied.wav" as #2
+EndLoad
+
+Animate /repeat=false
+  Sound #2
+  Picture #1 /p=100
+  Picture #2 /p=800
+  Picture #3 /p=600
+  Picture #2 /p=1600
+EndAnimate

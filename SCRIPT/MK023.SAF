@@ -1,0 +1,31 @@
+Load
+ "mk023a.bmp" as #1
+ "mk023b.bmp" as #2
+ "mk023c.bmp" as #3
+ "mk023d.bmp" as #4
+  "Ukulele1.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Sound #1
+  Picture #1 /p=110
+  Picture #2 /p=110
+  Picture #3 /p=110
+  Picture #4 /p=110
+  Picture #3 /p=110
+  Picture #2 /p=110
+  Picture #1 /p=110
+  Picture #2 /p=110
+  Picture #3 /p=110
+  Picture #2 /p=110
+  Picture #1 /p=110
+  Picture #2 /p=110
+  Picture #3 /p=110
+  Picture #4 /p=110
+  Picture #3 /p=110
+  Picture #2 /p=110
+  Picture #1 /p=110
+  Picture #2 /p=110
+  Picture #3 /p=110
+  Picture #2 /p=410
+EndAnimate

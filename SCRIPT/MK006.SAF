@@ -1,0 +1,40 @@
+Load
+  "mk006a.bmp" as #1
+  "mk006b.bmp" as #2
+  "mk006c.bmp" as #3
+  "Papiga.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Sound #1
+  Picture #1 /p=150
+  Picture #2 /p=150
+  Picture #1 /p=150
+  Picture #3 /p=200
+  Picture #1 /p=150
+  Picture #2 /p=150
+  Sound #1
+  Picture #1 /p=150
+  Picture #3 /p=200
+  Picture #1 /p=150
+  Picture #2 /p=150
+  Picture #1 /p=150
+  Picture #3 /p=200
+  Sound #1
+  Picture #1 /p=150
+  Picture #2 /p=150
+  Picture #1 /p=150
+  Picture #3 /p=200
+  Picture #1 /p=150
+  Sound #1
+  Picture #2 /p=150
+  Picture #1 /p=150
+  Picture #3 /p=200
+  Picture #3 /p=200
+  Picture #1 /p=150
+  Sound #1
+  Picture #2 /p=150
+  Picture #1 /p=150
+  Picture #3 /p=200
+  Picture #1 /p=850
+EndAnimate

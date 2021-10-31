@@ -1,0 +1,23 @@
+Load
+ "mk133a.bmp" as #1
+ "mk133b.bmp" as #2
+ "mk133c.bmp" as #3
+ "mk133d.bmp" as #4
+  "Bei.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Picture #1 /p=100
+  Sound #1
+  Picture #4 /p=100
+  Sound #1
+  Picture #2 /p=100
+  Sound #1
+  Picture #4 /p=100
+  Sound #1
+  Picture #2 /p=100
+  Sound #1
+  Picture #4 /p=100
+  Sound #1
+  Picture #3 /p=500
+EndAnimate

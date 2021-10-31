@@ -1,0 +1,17 @@
+Load
+ "mk213a.bmp" as #1
+ "mk213b.bmp" as #2
+ "mk213c.bmp" as #3
+ "mk213d.bmp" as #4
+ "open.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Picture #1 /p=380
+  Picture #2 /p=580
+  Picture #3 /p=380
+  Picture #2 /p=280
+  Picture #3 /p=380
+  Picture #2 /p=380
+  Picture #1 /p=780
+EndAnimate

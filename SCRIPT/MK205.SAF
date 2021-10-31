@@ -1,0 +1,27 @@
+Load
+ "mk205a.bmp" as #1
+ "mk205b.bmp" as #2
+ "mk205c.bmp" as #3
+  "Bertlaff.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Sound #1
+  Picture #1 /p=120
+  Picture #2 /p=150
+  Picture #3 /p=150
+  Picture #2 /p=150
+  Picture #3 /p=150
+  Picture #2 /p=150
+  Picture #2 /p=150
+  Picture #3 /p=150
+  Sound #1
+  Picture #1 /p=120
+  Picture #2 /p=150
+  Picture #3 /p=150
+  Picture #2 /p=150
+  Picture #3 /p=150
+  Picture #2 /p=150
+  Picture #3 /p=150
+  Picture #1 /p=650
+EndAnimate

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/master.css">
+    <title>Meni stavnice</title>
+    <link rel="icon" href="STAVNICA.ICO">
+    <style media="screen">
+      #crv-ozadje{
+        background-image: url("POMOC/DEFAULT.png");
+        background-repeat: no-repeat;
+        background-size: 90%;
+      }
+      /*.govor{
+        padding-bottom: 75px;
+        width: 180px;
+        height: 120px;
+      }
+      */
+      audio {
+        width: 600px;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.21.0/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.1.1"></script>
+  </head>
+  <body>
+    <div class="vsredina">
+      <table>
+        <tr>
+          <td><img src="SYSTEM/MAIN1.BMP"  onmouseover="spremeniOzadje('STAVNICA')" alt="Stavnica-slika"></td>
+          <td><img src="SYSTEM/MAIN2.BMP" alt="Glasovi-slika" onmouseover="spremeniOzadje('GLASOVI')"></td>
+          <td><img src="SYSTEM/MAIN5.BMP" alt="Povezave-slika" onmouseover="spremeniOzadje('POVEZAVE')"></td>
+          <td rowspan="3"><img src="SYSTEM/ZIVALI.png" alt="Povezave-slika" onmouseover="spremeniOzadje('OKOLJA')"> </td>
+        </tr>
+        <tr>
+          <td><a href="stavnica.html"><img src="SYSTEM/BMAIN1.BMP" alt="Stavnica-gumb"></a></td>
+          <td><a href="glasovi.html"><img src="SYSTEM/BMAIN2.BMP" alt="Glasovi-gumb"></a></td>
+          <td><a href="povezave.html"><img src="SYSTEM/BMAIN5.BMP" alt="Povezave-gumb"></a></td>
+        </tr>
+        <tr>
+          <td id="crv-ozadje"></td> <!-- SYSTEM/KONEC57.BMP & SYSTEM/ZVOK.BMP-->
+          <td><img src="SYSTEM/MAIN3.BMP" alt="Zgodbe-slika" onmouseover="spremeniOzadje('ZGODBE')"></td>
+          <td><img src="SYSTEM/MAIN4.BMP" alt="Konec-slika" onmouseover="spremeniOzadje('BESEDE')"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><a href="zgodbe.html"><img src="SYSTEM/BMAIN3.BMP"></a></td>
+          <td><a href="besede.html"><img src="SYSTEM/BMAIN6.BMP"></a></td>
+          <td><a href="okolja.html"><img src="SYSTEM/BMAIN Okolja.jpg"></a></td>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <center>
+              <midi-player id="jami"
+                sound-font visualizer="#myVisualizer">
+              </midi-player>
+            </center>	
+          </td>
+        </tr>
+      </table>
+    </div>
+    <script src="JAVASCRIPT/meni.js"></script>
+  </body>
+  <audio controls hidden id="zvok">
+  </audio>
+</html>

@@ -1,0 +1,17 @@
+Število:5
+
+Slika:vprasaj1.bmp
+Balon:balon1.bmp
+
+Slika:vprasaj2.bmp
+Balon:balon1.bmp
+
+Slika:vprasaj3.bmp
+Balon:balon1.bmp
+
+Slika:vprasaj4.bmp
+Balon:balon1.bmp
+
+Slika:vprasaj5.bmp
+Balon:balon1.bmp
+

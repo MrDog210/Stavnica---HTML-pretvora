@@ -1,0 +1,42 @@
+/* https://grid.layoutit.com/?id=AXPJJs0 */
+section#listCrk .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "slika slika slika slika"
+        "slika slika slika slika"
+        "slika slika slika slika"
+        "potrdi potrdi potrdi potrdi";
+}
+.potrdi { grid-area: potrdi; }
+.slika { grid-area: slika; }
+
+#listCrk {
+    display: none;
+}
+#listCrkContainer {
+    width: 850px;
+    height: 500px;
+    overflow: auto;
+    text-align: center;
+}
+div[class^='listCrk-'] {
+    width: 200px;
+    height: 160px;
+    float: left;
+    border: 1px solid black;
+    text-align: center;
+}
+#listCrkContainer div img{
+    max-width: 120px;
+    max-height: 120px;
+}
+#listCrk .potrdi{
+    border: 1px solid black;
+}
+#listCrk .slika{
+    border: 1px solid black;
+}

@@ -1,0 +1,24 @@
+Load
+ "mk109a.bmp" as #1
+ "mk109b.bmp" as #2
+ "mk109c.bmp" as #3
+ "mk109d.bmp" as #4
+ "mk109e.bmp" as #5
+ "mk109f.bmp" as #6
+ "mk109g.bmp" as #7
+ "mk109h.bmp" as #8
+  "Zingsplt.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Picture #1 /p=200
+  Picture #2 /p=200
+  Picture #8 /p=500
+  Sound #1
+  Picture #2 /p=50
+  Picture #3 /p=50
+  Picture #4 /p=50
+  Picture #5 /p=50
+  Picture #6 /p=50
+  Picture #7 /p=1250
+EndAnimate

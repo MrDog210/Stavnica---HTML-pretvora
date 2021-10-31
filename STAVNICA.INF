@@ -1,0 +1,34 @@
+;; Stavnica Info file
+;; STAVNICA.INF
+;; Copyright (c) i-Rose d.o.o. 1993-1996
+
+[make.path]
+
+[copy.files.windows]
+;source            dest               desc                             size
+"UNINSTAL.EXE",    "UNINSTAL.EXE",    "Odstanitev",                    0
+
+[copy.files.system]
+"ROSEHLP.FON",     "ROSEHLP.FON",     "Pisava",                        0
+"ROSE_TT.TTF",     "ROSE_TT.TTF",     "Pisava",                        0
+"ROSE_TT.FOT",     "ROSE_TT.FOT",     "Pisava",                        0
+
+[copy.files.root]
+;source            dest               desc                             size
+
+[inifile.Topics]
+; topics      ini file
+poti        = "STAVNICA.INI"
+
+[inifile.poti]
+GlavnaPot=%root%
+PotDoSlik=%root%\OHZASLON
+
+[create.group.Topics]
+Stavnica
+
+[create.group.Stavnica]
+;command line                     WorkingDir           Description
+"%cddrive%:\stavnica.exe",        "%cddrive%:\",       "Stavnica"
+"%cddrive%:\testglas.exe",        "%cddrive%:\",       "Preizkus glasbene kartice"
+"uninstal.exe",                   "",                  "Odstranitev"

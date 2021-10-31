@@ -1,0 +1,25 @@
+Load
+ "mk131a.bmp" as #1
+ "mk131b.bmp" as #2
+ "mk131c.bmp" as #3
+  "open.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Picture #1 /p=100
+  Picture #2 /p=100
+  Picture #1 /p=100
+  Picture #3 /p=100
+  Picture #1 /p=100
+  Picture #2 /p=100
+  Picture #1 /p=100
+  Picture #3 /p=100
+  Picture #1 /p=100
+  Picture #2 /p=100
+  Picture #1 /p=100
+  Picture #3 /p=100
+  Picture #1 /p=100
+  Picture #2 /p=100
+  Picture #1 /p=100
+  Picture #3 /p=500
+EndAnimate

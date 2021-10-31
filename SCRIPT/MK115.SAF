@@ -1,0 +1,25 @@
+Load
+ "mk115a.bmp" as #1
+ "mk115b.bmp" as #2
+ "mk115c.bmp" as #3
+ "Kamela.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Sound #1
+  Picture #1 /p=350
+  Picture #2 /p=250
+  Picture #3 /p=250
+  Picture #2 /p=250
+  Picture #3 /p=250
+  Picture #2 /p=250
+  Sound #1
+  Picture #1 /p=450
+  Picture #2 /p=250
+  Picture #3 /p=250
+  Picture #2 /p=250
+  Picture #3 /p=250
+  Picture #2 /p=250
+  Sound #1
+  Picture #1 /p=850
+EndAnimate

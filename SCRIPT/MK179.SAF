@@ -1,0 +1,27 @@
+Load
+ "mk179a.bmp" as #1
+ "mk179b.bmp" as #2
+ "mk179c.bmp" as #3
+  "Kraehe.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Sound #1
+  Picture #1 /p=200
+  Picture #2 /p=200
+  Picture #1 /p=200
+  Picture #3 /p=200
+  Picture #1 /p=200
+  Picture #2 /p=200
+  Picture #1 /p=200
+  Picture #3 /p=200
+  Picture #1 /p=200
+  Picture #2 /p=200
+  Picture #1 /p=200
+  Picture #3 /p=200
+  Picture #1 /p=200
+  Picture #2 /p=200
+  Picture #1 /p=200
+  Picture #3 /p=200
+  Picture #1 /p=800
+EndAnimate

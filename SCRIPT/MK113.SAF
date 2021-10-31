@@ -1,0 +1,9 @@
+Load
+ "mk113a.bmp" as #1
+  "Elguitar.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Sound #1
+  Picture #1 /p=1200
+EndAnimate

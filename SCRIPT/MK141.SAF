@@ -1,0 +1,41 @@
+Load
+ "mk141a.bmp" as #1
+ "mk141b.bmp" as #2
+ "mk141c.bmp" as #3
+ "mk141d.bmp" as #4
+ "mk141e.bmp" as #5
+ "mk141f.bmp" as #6
+ "mk141g.bmp" as #7
+ "opica.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Sound #1
+  Picture #1 /p=100
+  Picture #2 /p=100
+  Picture #3 /p=100
+  Picture #4 /p=100
+  Picture #5 /p=100
+  Picture #6 /p=200
+  Picture #7 /p=600
+  Picture #6 /p=200
+  Picture #5 /p=150
+  Sound #1
+  Picture #4 /p=150
+  Picture #3 /p=150
+  Picture #2 /p=150
+  Picture #1 /p=100
+  Picture #2 /p=100
+  Picture #3 /p=100
+  Picture #4 /p=100
+  Picture #5 /p=100
+  Picture #6 /p=200
+  Sound #1
+  Picture #7 /p=600
+  Picture #6 /p=200
+  Picture #5 /p=150
+  Picture #4 /p=150
+  Picture #3 /p=150
+  Picture #2 /p=150
+  Picture #1 /p=1050
+EndAnimate

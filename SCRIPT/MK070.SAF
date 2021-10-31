@@ -1,0 +1,18 @@
+Load
+ "mk070a.bmp" as #1
+ "mk070b.bmp" as #2
+ "mk070c.bmp" as #3
+ "mk070d.bmp" as #4
+  "Bremsen2.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Picture #2 /p=750
+  Sound #1
+  Picture #1 /p=150
+  Picture #3 /p=450
+  Picture #4 /p=350
+  Picture #2 /p=250
+  Picture #3 /p=450
+  Picture #4 /p=750
+EndAnimate

@@ -1,0 +1,84 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 2fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "Slika Slika Izbira Izbira Izbira"
+    "Slika Slika Besede Besede Besede"
+    "Meni Meni Besede Besede Besede";
+}
+
+.Izbira { grid-area: Izbira; }
+
+.Slika { grid-area: Slika; }
+
+.Besede { grid-area: Besede; }
+
+.Meni { grid-area: Meni; }  
+
+* {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Izbira {
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Slika {
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.premik{
+  max-width: 100px;
+  max-height:100px;
+}
+
+.TEKST {
+    font-size: 35px;
+}
+
+.URA {
+    max-width: 80px;
+}
+
+.spustljivo {
+  display: table;
+  width: 110px;
+  height: 110px;
+  border: 1px solid black;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.Besede div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.Besede {
+  text-align: center;
+}
+.Izbira img {
+  margin-left: 45px;
+}
+.Meni {
+  padding-left: 20px;
+}
+.Meni * {
+  margin-top: 5px;
+}
+#konec {
+  background-color: #cccc99;
+}
+#naprej {
+  background-color: #fccc04;
+}

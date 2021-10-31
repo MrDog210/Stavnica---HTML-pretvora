@@ -1,0 +1,40 @@
+Load
+ "mk198a.bmp" as #1
+ "mk198b.bmp" as #2
+ "mk198c.bmp" as #3
+ "mk198d.bmp" as #4
+ "mk198e.bmp" as #5
+ "mk198f.bmp" as #6
+ "mk198g.bmp" as #7
+  "Anvil.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Picture #1 /p=40
+  Picture #2 /p=40
+  Picture #3 /p=40
+  Picture #4 /p=40
+  Picture #5 /p=40
+  Picture #6 /p=40
+  Sound #1
+  Picture #7 /p=400
+  Picture #6 /p=140
+  Picture #5 /p=140
+  Picture #4 /p=140
+  Picture #3 /p=140
+  Picture #2 /p=140
+  Picture #1 /p=140
+  Picture #2 /p=140
+  Picture #3 /p=140
+  Picture #4 /p=140
+  Picture #5 /p=140
+  Picture #6 /p=140
+  Sound #1
+  Picture #7 /p=400
+  Picture #6 /p=40
+  Picture #5 /p=40
+  Picture #4 /p=40
+  Picture #3 /p=40
+  Picture #2 /p=40
+  Picture #1 /p=140
+EndAnimate

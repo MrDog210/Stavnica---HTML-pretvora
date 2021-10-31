@@ -1,0 +1,9 @@
+Load
+ "mk037a.bmp" as #1
+  "0037.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Sound #1
+  Picture #1 /p=2000
+EndAnimate

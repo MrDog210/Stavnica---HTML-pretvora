@@ -1,0 +1,102 @@
+/* https://grid.layoutit.com/?id=XLecdSt */
+section#meniSlik .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "slika-0 slika-1 slika-2 slika-3 slika-4 slika-5 slika-6"
+      "slika-7 slika-8 slika-9 slika-10 slika-11 slika-12 slika-13"
+      "slika-14 slika-15 slika-16 slika-17 slika-18 slika-19 slika-20"
+      "slika-21 slika-22 slika-23 slika-24 slika-25 slika-26 slika-27"
+      "nazaj nazaj besSlika besSlika besSlika naprej naprej"
+      "potrdi potrdi potrdi potrdi potrdi potrdi potrdi";
+  }
+  
+  .slika-0 { grid-area: slika-0; }
+  
+  .slika-1 { grid-area: slika-1; }
+  
+  .slika-2 { grid-area: slika-2; }
+  
+  .slika-3 { grid-area: slika-3; }
+  
+  .slika-4 { grid-area: slika-4; }
+  
+  .slika-5 { grid-area: slika-5; }
+  
+  .slika-6 { grid-area: slika-6; }
+  
+  .slika-7 { grid-area: slika-7; }
+  
+  .slika-8 { grid-area: slika-8; }
+  
+  .slika-9 { grid-area: slika-9; }
+  
+  .slika-10 { grid-area: slika-10; }
+  
+  .slika-11 { grid-area: slika-11; }
+  
+  .slika-12 { grid-area: slika-12; }
+  
+  .slika-13 { grid-area: slika-13; }
+  
+  .slika-14 { grid-area: slika-14; }
+  
+  .slika-15 { grid-area: slika-15; }
+  
+  .slika-16 { grid-area: slika-16; }
+  
+  .slika-17 { grid-area: slika-17; }
+  
+  .slika-18 { grid-area: slika-18; }
+  
+  .slika-19 { grid-area: slika-19; }
+  
+  .slika-20 { grid-area: slika-20; }
+  
+  .slika-21 { grid-area: slika-21; }
+  
+  .slika-22 { grid-area: slika-22; }
+  
+  .slika-23 { grid-area: slika-23; }
+  
+  .slika-24 { grid-area: slika-24; }
+  
+  .slika-25 { grid-area: slika-25; }
+  
+  .slika-26 { grid-area: slika-26; }
+  
+  .slika-27 { grid-area: slika-27; }
+  
+  .nazaj { grid-area: nazaj; }
+  
+  .naprej { grid-area: naprej; }
+  
+  .besSlika { grid-area: besSlika; }
+  
+  .potrdi { grid-area: potrdi; }
+
+div[class^='slika-'] img {
+  max-width: 120px;
+  max-height: 120px;
+}
+div[class^='slika-'] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:2px solid black;
+  border-collapse: collapse;
+}
+#listCrkContainer {
+  justify-content: center;
+  align-items: center;
+}
+.nazaj, .naprej, .besSlika, .potrdi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#meniSlik .nazaj button, #meniSlik .naprej button{
+  background-color: #666699;
+}

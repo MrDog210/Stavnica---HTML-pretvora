@@ -1,0 +1,31 @@
+Load
+ "mk142a.bmp" as #1
+ "mk142b.bmp" as #2
+ "mk142c.bmp" as #3
+ "donner.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Sound #1
+  Picture #1 /p=600
+  Picture #3 /p=250
+  Picture #2 /p=200
+  Picture #1 /p=250
+  Picture #2 /p=250
+  Picture #1 /p=250
+  Picture #2 /p=200
+  Picture #3 /p=200
+  Picture #1 /p=200
+  Picture #2 /p=250
+  Picture #1 /p=250
+  Picture #2 /p=250
+  Picture #1 /p=250
+  Picture #2 /p=250
+  Picture #1 /p=250
+  Picture #2 /p=250
+  Picture #1 /p=250
+  Picture #2 /p=250
+  Picture #1 /p=250
+  Picture #2 /p=250
+  Picture #1 /p=850
+EndAnimate

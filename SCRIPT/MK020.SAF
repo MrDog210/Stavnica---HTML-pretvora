@@ -1,0 +1,22 @@
+Load
+ "mk020a.bmp" as #1
+ "mk020b.bmp" as #2
+ "mk020c.bmp" as #3
+ "mk020d.bmp" as #4
+ "aliencar.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Sound #1 
+  Picture #1 /p=600
+  Picture #2 /p=100
+  Sound #1 
+  Picture #1 /p=100
+  Picture #2 /p=100
+  Picture #1 /p=200
+  Picture #3 /p=200
+  Picture #4 /p=200
+  Picture #3 /p=200
+  Picture #4 /p=200
+  Picture #3 /p=1000
+EndAnimate

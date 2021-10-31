@@ -1,0 +1,21 @@
+Load
+ "mk123a.bmp" as #1
+ "mk123b.bmp" as #2
+ "mk123c.bmp" as #3
+  "jet2.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Picture #1 /p=220
+  Picture #2 /p=220
+  Picture #3 /p=220
+  Picture #2 /p=220
+  Picture #1 /p=220
+  Picture #2 /p=220
+  Picture #1 /p=220
+  Picture #3 /p=220
+  Picture #2 /p=220
+  Picture #1 /p=200
+  Picture #3 /p=220
+  Picture #1 /p=1120
+EndAnimate

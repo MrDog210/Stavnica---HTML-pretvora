@@ -1,0 +1,25 @@
+Load
+ "mk029a.bmp" as #1
+ "mk029b.bmp" as #2
+ "mk029c.bmp" as #3
+ "mk029d.bmp" sa #4
+ "elefant.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Sound #1
+  Picture #1 /p=200
+  Picture #2 /p=300
+  Picture #1 /p=200
+  Picture #4 /p=300
+  Picture #3 /p=300
+  Picture #1 /p=300
+  Picture #2 /p=300
+  Picture #1 /p=200
+  Picture #4 /p=300
+  Picture #3 /p=300
+  Picture #1 /p=300
+  Picture #1 /p=200
+  Picture #4 /p=300
+  Picture #3 /p=1000
+EndAnimate

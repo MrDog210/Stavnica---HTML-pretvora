@@ -1,0 +1,24 @@
+Load
+ "mk095a.bmp" as #1
+ "mk095b.bmp" as #2
+ "mk095c.bmp" as #3
+ "mk095d.bmp" as #4
+  "095.wav" as #1
+EndLoad
+
+Animate /repeat=false
+  Sound #1
+  Picture #1 /p=400
+  Picture #4 /p=400
+  Picture #2 /p=400
+  Picture #3 /p=400
+  Picture #2 /p=400
+  Picture #4 /p=400
+  Picture #1 /p=400
+  Picture #4 /p=400
+  Picture #2 /p=400
+  Picture #3 /p=400
+  Picture #2 /p=400
+  Picture #4 /p=400
+  Picture #1 /p=800
+EndAnimate
